@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A",
+    "B",
+    "A"
+  ],
+  "key": {
+    "A": "peachbloom:peach_log",
+    "B": "minecraft:stick"
+  },
+  "result": {
+    "id": "peachbloom:peach_sword",
+    "count": 1
+  }
+}

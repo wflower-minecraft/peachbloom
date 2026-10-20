@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "peachbloom:peach_leaves",
+  "result": {
+    "id": "peachbloom:dried_peach_blossom",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

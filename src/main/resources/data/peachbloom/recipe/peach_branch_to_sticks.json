@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "peachbloom:peach_branch"
+  ],
+  "result": {
+    "id": "minecraft:stick",
+    "count": 64
+  }
+}

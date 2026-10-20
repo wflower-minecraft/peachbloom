@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A A",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "peachbloom:peach_ingot"
+  },
+  "result": {
+    "id": "peachbloom:peach_chestplate",
+    "count": 1
+  }
+}

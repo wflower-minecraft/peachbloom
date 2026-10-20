@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "peachbloom:peach",
+    "minecraft:honey_bottle"
+  ],
+  "result": {
+    "id": "peachbloom:canned_peach",
+    "count": 1
+  }
+}

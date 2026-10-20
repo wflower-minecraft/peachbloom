@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "minecraft:wheat",
+    "peachbloom:peach_gum"
+  ],
+  "result": {
+    "id": "peachbloom:peach_gum_porridge_bucket",
+    "count": 1
+  }
+}

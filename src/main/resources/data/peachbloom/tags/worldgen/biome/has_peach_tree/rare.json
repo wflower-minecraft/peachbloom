@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:desert",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:beach",
+    "minecraft:river",
+    "minecraft:ocean",
+    "minecraft:warm_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:cold_ocean",
+    "minecraft:deep_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:deep_cold_ocean"
+  ]
+}

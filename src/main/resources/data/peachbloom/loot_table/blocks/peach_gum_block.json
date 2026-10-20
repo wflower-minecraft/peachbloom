@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "peachbloom:peach_gum",
+          "modifier": [
+            {
+              "type": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            },
+            {
+              "type": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "peachbloom:blocks/peach_gum_block"
+}

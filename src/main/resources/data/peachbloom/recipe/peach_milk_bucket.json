@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "peachbloom:dried_peach_blossom"
+  ],
+  "result": {
+    "id": "peachbloom:peach_milk_bucket",
+    "count": 1
+  }
+}

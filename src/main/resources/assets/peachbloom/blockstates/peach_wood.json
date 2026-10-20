@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "peachbloom:block/peach_wood"
+    },
+    "axis=z": {
+      "model": "peachbloom:block/peach_wood_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "peachbloom:block/peach_wood_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

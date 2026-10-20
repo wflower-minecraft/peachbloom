@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "peachbloom",
+	"version": "${version}",
+	"name": "桃花运 Peach Bloom",
+	"description": "桃花树、桃胶、桃花与桃花云维度。亡灵退散喵！",
+	"authors": ["zako_meow"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/peachbloom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.zako.peachbloom.PeachBloom"],
+		"client": ["com.zako.peachbloom.client.PeachBloomClient"]
+	},
+	"mixins": [
+		"peachbloom.mixins.json",
+		{"config": "peachbloom.client.mixins.json", "environment": "client"}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

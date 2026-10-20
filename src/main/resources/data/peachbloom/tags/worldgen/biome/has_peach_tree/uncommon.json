@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:mangrove_swamp",
+    "minecraft:stony_peaks",
+    "minecraft:stony_shore",
+    "minecraft:mushroom_fields",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "minecraft:sulfur_caves"
+  ]
+}

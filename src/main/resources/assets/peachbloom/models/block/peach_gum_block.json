@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "peachbloom:block/peach_gum_block"
+  }
+}

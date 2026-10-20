@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "peachbloom:peach_gum"
+  },
+  "result": {
+    "id": "peachbloom:peach_gum_slime_block",
+    "count": 1
+  }
+}

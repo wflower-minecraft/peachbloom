@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "peachbloom:peach_log"
+  ],
+  "result": {
+    "id": "peachbloom:peach_planks",
+    "count": 4
+  }
+}
