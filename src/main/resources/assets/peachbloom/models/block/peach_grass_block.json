@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "peachbloom:block/peach_dirt",
+    "side": "peachbloom:block/peach_grass_block_side",
+    "top": "peachbloom:block/peach_grass_block_top"
+  }
+}

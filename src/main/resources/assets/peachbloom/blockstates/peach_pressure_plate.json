@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "peachbloom:block/peach_pressure_plate"
+    },
+    "powered=true": {
+      "model": "peachbloom:block/peach_pressure_plate_down"
+    }
+  }
+}

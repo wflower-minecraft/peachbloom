@@ -1,0 +1,48 @@
+{
+  "type": "peachbloom:peach_bloom",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "peachbloom:peach_bloom",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "peachbloom:peach_clouds",
+          "parameters": {
+            "temperature": [-1.1, 1.1],
+            "humidity": 0.0,
+            "continentalness": [-1.1, 1.1],
+            "erosion": 0.0,
+            "depth": [-1.1, -0.45],
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "peachbloom:peach_forest",
+          "parameters": {
+            "temperature": [-1.1, 1.1],
+            "humidity": 0.0,
+            "continentalness": [-1.1, 0.0],
+            "erosion": 0.0,
+            "depth": [-0.45, 1.1],
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "peachbloom:peach_plains",
+          "parameters": {
+            "temperature": [-1.1, 1.1],
+            "humidity": 0.0,
+            "continentalness": [0.0, 1.1],
+            "erosion": 0.0,
+            "depth": [-0.45, 1.1],
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

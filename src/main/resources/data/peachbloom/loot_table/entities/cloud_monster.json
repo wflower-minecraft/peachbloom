@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "peachbloom:peach_cloud"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "peachbloom:entities/cloud_monster"
+}

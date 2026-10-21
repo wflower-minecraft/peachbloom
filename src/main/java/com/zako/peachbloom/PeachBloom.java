@@ -2,6 +2,7 @@ package com.zako.peachbloom;
 
 import com.zako.peachbloom.registry.ModBlocks;
 import com.zako.peachbloom.registry.ModEffects;
+import com.zako.peachbloom.registry.ModEntities;
 import com.zako.peachbloom.registry.ModFeatures;
 import com.zako.peachbloom.registry.ModItems;
 import com.zako.peachbloom.registry.ModTabs;
@@ -20,21 +21,33 @@ public class PeachBloom implements ModInitializer {
 		ModBlocks.init();
 		ModItems.init();
 		ModEffects.init();
+		ModEntities.init();
 		ModFeatures.init();
 		ModTabs.init();
 
+		registerFlammable();
+		registerStripping();
+
+		LOGGER.info("[桃花运] 桃树发芽完成喵~");
+	}
+
+	private static void registerFlammable() {
 		FlammableBlockRegistry flammable = FlammableBlockRegistry.getDefaultInstance();
 		flammable.add(ModBlocks.PEACH_LOG, 5, 5);
 		flammable.add(ModBlocks.STRIPPED_PEACH_LOG, 5, 5);
 		flammable.add(ModBlocks.PEACH_WOOD, 5, 5);
 		flammable.add(ModBlocks.STRIPPED_PEACH_WOOD, 5, 5);
 		flammable.add(ModBlocks.PEACH_PLANKS, 5, 20);
+		flammable.add(ModBlocks.PEACH_STAIRS, 5, 20);
+		flammable.add(ModBlocks.PEACH_SLAB, 5, 20);
+		flammable.add(ModBlocks.PEACH_FENCE, 5, 20);
+		flammable.add(ModBlocks.PEACH_FENCE_GATE, 5, 20);
+		flammable.add(ModBlocks.PEACH_DOOR, 5, 20);
+		flammable.add(ModBlocks.PEACH_TRAPDOOR, 5, 20);
+		flammable.add(ModBlocks.PEACH_PRESSURE_PLATE, 5, 20);
+		flammable.add(ModBlocks.PEACH_BUTTON, 5, 20);
 		flammable.add(ModBlocks.PEACH_LEAVES, 30, 60);
 		flammable.add(ModBlocks.PEACH_GUM_SLIME_BLOCK, 30, 60);
-
-		registerStripping();
-
-		LOGGER.info("[桃花运] 桃树发芽完成喵~");
 	}
 
 	private static void registerStripping() {

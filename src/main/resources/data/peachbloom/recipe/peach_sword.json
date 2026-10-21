@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "A",
-    "B",
-    "A"
+    "   ",
+    " A ",
+    " B "
   ],
   "key": {
     "A": "peachbloom:peach_log",

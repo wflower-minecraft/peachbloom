@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": "minecraft:stick",
+    "W": "peachbloom:peach_planks"
+  },
+  "result": {
+    "id": "peachbloom:peach_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "peachbloom:block/peach_slab"
+    },
+    "type=double": {
+      "model": "peachbloom:block/peach_planks"
+    },
+    "type=top": {
+      "model": "peachbloom:block/peach_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "peachbloom:block/peach_carrot_stage0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:min",
+  "left": {
+    "type": "minecraft:max",
+    "left": {
+      "type": "minecraft:add",
+      "left": 0.12,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 0.65,
+        "right": {
+          "type": "minecraft:noise",
+          "noise": "peachbloom:peach_terrain",
+          "xz_scale": 1.0,
+          "y_scale": 1.0
+        }
+      }
+    },
+    "right": {
+      "type": "minecraft:gradient",
+      "axis": "y",
+      "from_coordinate": -50,
+      "from_value": 1.0,
+      "to_coordinate": -30,
+      "to_value": 0.0
+    }
+  },
+  "right": {
+    "type": "minecraft:gradient",
+    "axis": "y",
+    "from_coordinate": 66,
+    "from_value": 1.0,
+    "to_coordinate": 68,
+    "to_value": 0.0
+  }
+}

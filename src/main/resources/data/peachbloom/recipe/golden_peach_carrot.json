@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:gold_nugget",
+    "X": "peachbloom:peach_carrot"
+  },
+  "result": {
+    "id": "peachbloom:golden_peach_carrot",
+    "count": 1
+  }
+}

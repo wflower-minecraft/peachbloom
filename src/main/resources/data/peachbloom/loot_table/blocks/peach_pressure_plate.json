@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "peachbloom:peach_pressure_plate"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "peachbloom:blocks/peach_pressure_plate"
+}

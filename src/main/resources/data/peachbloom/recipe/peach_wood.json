@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "peachbloom:peach_log"
+  },
+  "result": {
+    "id": "peachbloom:peach_wood",
+    "count": 3
+  }
+}

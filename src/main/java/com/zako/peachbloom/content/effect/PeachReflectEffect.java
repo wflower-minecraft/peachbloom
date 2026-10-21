@@ -7,6 +7,9 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
 
+/**
+ * 辟邪：亡灵生物攻击时返还其攻击伤害的 10%，不造成击退。
+ */
 public class PeachReflectEffect extends MobEffect {
 	public PeachReflectEffect() {
 		super(MobEffectCategory.BENEFICIAL, 0xFFB7D5);
@@ -15,7 +18,10 @@ public class PeachReflectEffect extends MobEffect {
 	@Override
 	public void onMobHurt(ServerLevel level, LivingEntity mob, int amplifier, DamageSource source, float damage) {
 		if (source.getEntity() instanceof LivingEntity attacker && attacker != mob && UndeadRules.isUndead(attacker)) {
-			attacker.hurtServer(level, level.damageSources().thorns(mob), 2.0F + amplifier);
+			float reflect = damage * 0.10F;
+			if (reflect > 0.0F) {
+				attacker.hurtServer(level, level.damageSources().magic(), reflect);
+			}
 		}
 	}
 }

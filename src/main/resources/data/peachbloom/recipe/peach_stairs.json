@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "peachbloom:peach_planks"
+  },
+  "result": {
+    "id": "peachbloom:peach_stairs",
+    "count": 4
+  }
+}

@@ -17,7 +17,8 @@ public class MobEntityMixin {
 		Mob self = (Mob) (Object) this;
 		ItemStack equipped = cir.getReturnValue();
 		if (equipped != null && !equipped.isEmpty() && equipped.getItem() == ModItems.PEACH_LOG && UndeadRules.isUndead(self)) {
-			self.igniteForSeconds(4.0F);
+			// 桃花原木让亡灵持续燃烧直至死亡（1 小时，远超其存活时间）
+			self.igniteForSeconds(3600.0F);
 		}
 	}
 }

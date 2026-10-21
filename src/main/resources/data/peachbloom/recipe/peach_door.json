@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "peachbloom:peach_planks"
+  },
+  "result": {
+    "id": "peachbloom:peach_door",
+    "count": 3
+  }
+}

@@ -1,10 +1,14 @@
 package com.zako.peachbloom.client;
 
+import com.zako.peachbloom.registry.ModEntities;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.ModelLayerRegistry;
 
-public class PeachBloomClient implements ClientModInitializer {
+public final class PeachBloomClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		// 传送门渲染、粒子、雾效等客户端表现层入口
+		ModelLayerRegistry.registerModelLayer(CloudMonsterModel.LAYER_LOCATION, CloudMonsterModel::createBodyLayer);
+		EntityRendererRegistry.register(ModEntities.CLOUD_MONSTER, CloudMonsterRenderer::new);
 	}
 }
